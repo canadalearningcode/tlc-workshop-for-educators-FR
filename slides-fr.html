@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Teachers Learning Code</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- S'occupe des préfixes CSS3 -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- Ouvre tous les liens dans une nouvelle fenêtre -->
+  <base target="_blank">
+</head>
+
+<!-- Barre de progression / temps : définissez la durée de la présentation en minutes avec « data-duration ». -->
+<body class="en" data-duration="360">
+  <main>
+    <section class="slide welcome highlight">
+      <h1><img class="logo-stacked" src="framework/img/teachers-logo-vertical-lockup.png" alt="Teachers Learning Code logo">Bienvenue!</h1>
+
+      <div class="instructions">
+        <!-- AJOUTEZ LES INFORMATIONS DU WI-FI ICI -->
+        <h2>Branchez- <br>vous</h2>
+        <p><strong>Wi-Fi :</strong> réseau Wi-Fi</p>
+        <p><strong>Mot de passe :</strong> mot de passe du Wi-Fi</p>
+        <hr>
+
+        <h2>Téléchargez<br> et installez</h2>
+        <ol class="downloads">
+          <li>Fichiers de l'apprenant (dossier zip) : <a href="https://github.com/ladieslearningcode/tlc-workshop-for-educators/archive/master.zip">[LIEN]</a>
+            <ul>
+              <li>dézippez le dossier contenant les fichiers de l'apprenant (<em>Extraire tout</em> si vous êtes sur Windows)</li>
+              <li>ouvrez <em>slides_fr.html</em> dans le navigateur pour voir les diapositives</li>
+            </ul>
+
+        </ol>
+      </div>
+
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Contenu créé par <a prefix="cc: http://creativecommons.org/ns#" href="http://canadalearningcode.ca" property="cc:attributionName" rel="cc:attributionURL">Canada Learning Code</a></p>
+        <p class="right">Naviguez avec les flèches gauche <span class="arrow">&#8592;</span> et droite <span class="arrow">&#8594;</span></p>
+      </footer>
+    </section>
+
+    <section class="slide intro">
+      <img class="logo" src="framework/img/teachers-logo-horizontal.png" alt="Teachers Learning Code logo">
+
+      <h1 class="heading-bg">
+        <span>Educator Workshop</span> <!--need to translate-->
+      </h1>
+
+      <!-- AJOUTEZ LES INFORMATIONS À PROPOS DU FORMATEUR -->
+      <img class="instructor" src="http://placehold.it/225x225" alt="Instructor Name">
+      <h2><span class="cursive">avec</span> nom du formateur</h2>
+      <ul>
+        <li><a href="mailto:">allo@email.com</a></li>
+        <li><a href="http://siteweb.com">siteweb.com</a></li>
+        <li><a href="http://twitter.com/">@twitter</a></li>
+      </ul>
+
+    <!--  <div class="sponsor">
+        <p>En collaboration avec<br> <img src="framework/img/shopify-logo-white.svg" alt="Telus"></p>
+      </div>
+
+    -->
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Contenu créé par </a> <a prefix="cc: http://creativecommons.org/ns#" href="http://canadalearningcode.ca" property="cc:attributionName" rel="cc:attributionURL">Canada Learning Code</a></p>
+        <p class="right">Naviguez avec les flèches gauche <span class="arrow">&#8592;</span> et droite <span class="arrow">&#8594;</span></p>
+      </footer>
+    </section>
+
+<!--Diapositive 3-->
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+        #Faites le robot!
+
+        <img src="framework/img/robot.png" alt="Robot">
+
+
+          ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://openclipart.org/detail/191072/blue-robot"> Blue Robot vector art by Scout</a>
+          </div>
+
+      </script>
+    </section>
+
+<!--Diapositive 4-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Ordre du jour
+
+        <div class="table-of-contents"></div>
+
+        <!-- Intro + exemples de projets + invité (10 h)
+
+        Remue-méninges + maquette (10 h 15)
+
+        Intro au HTML + CSS (10 h 45)
+
+        Dîner (12 h 30)
+
+        On construit! (13 h 15)
+
+        Démonstrations + publication (15 h 30) -->
+
+      </script>
+    </section>
+
+<!--Diapositive 5-->
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Présentations
+        ##Pourquoi êtes-vous ici?
+      </script>
+    </section>
+
+<!--Diapositive 6-->
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Qu'est-ce que Teachers Learning Code?
+
+        <img src="framework/img/teachers-landing-page_fr.png" alt="Teachers Learning Code Landing page">
+
+      </script>
+    </section>
+
+<!--Diapositive 7-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #CHANGER LE MONDE EN JUMELANT LA TECHNOLOGIE À LA COLLABORATION, À LA CRÉATIVITÉ, ET BIEN SÛR, AU CODE.
+      </script>
+    </section>
+
+<!--Diapositive 8-->
+    <section class="slide" data-markdown >
+      <script type="text/template">
+        #La clé pour une programmation couronnée de succès
+
+        <p><strong>Conçu spécialement pour les filles, notre contenu favorise un environnement de création de la technologie où règne l'égalité des sexes.</strong>
+        <p>Nous enseignons à la fois *comment* créer la technologie et *pourquoi* il est important de la créer.
+        <p><strong>Nos activités sont amusantes et passionnantes.</strong>
+        <p>Notre contenu met l'accent tant sur des concepts de base que sur des idées stimulantes.
+        <p><strong>Nos leçons donnent l'occasion aux apprenantes d'apprendre et de collaborer avec des camarades partageant les mêmes intérêts.</strong>
+        <p>En réalisant nos exercices pratiques et collaboratifs, les apprenantes feront partie d'une communauté d'apprenantes débrouillardes et curieuses à propos de la technologie.
+        <p><strong>Notre but est de développer chez elles une autonomie et une confiance en leurs compétences.</strong>
+        <p>Les activités et les exercices de Teachers Learning Code encouragent un état d'esprit axé sur la croissance.
+
+      </script>
+    </section>
+
+<!--Diapositive 9-->
+    <section class="slide" data-markdown >
+      <script type="text/template">
+        #Objectifs d'apprentissage
+        ##En enseignant la programmation aux enfants, nous leur enseignons aussi :
+
+        <ul>
+          <li>La pensée informatique</li>
+          <li>La créativité et la collaboration</li>
+          <li>Des concepts à propos des ordinateurs</li>
+          <li>La citoyenneté numérique</li>
+          <li>Des concepts de programmation essentiels</li>
+          <li>D'autres concepts importants en lien avec des disciplines telles que les sciences, les maths, les langues et autres</li>
+        </ul>
+
+      </script>
+    </section>
+
+<!--Diapositive 10-->
+    <section class="slide" data-markdown >
+      <script type="text/template">
+        #Une question de diversité
+        <p>Nos programmes sont conçus pour mettre l'accent sur la diversité. Afin de régler le problème de diversité dans le monde de la technologie, il est essentiel d'encourager et de soutenir des groupes d'apprenants de tous les horizons.
+
+        ##Conseils
+        <ul>
+          <li>Intégrez la programmation et la technologie à des projets de création significatifs.</li>
+          <li>Faites des liens entre la technologie et des professions créatives et intéressantes.</li>
+          <li>Favorisez un environnement d'apprentissage social et collaboratif.</li>
+          <li>Assurez-vous d'avoir des mentors et des modèles féminins.</li>
+          <li>Concentrez-vous tant sur le « pourquoi » que sur le « comment ».</li>
+          <li>Apprenez à reconnaître les préjugés inconscients.</li>
+          <li>Apprenez à reconnaître le syndrome de l'imposteur.</li>
+
+        </ul>
+
+      </script>
+    </section>
+
+<!--Diapositive 11-->
+    <section class="slide" data-markdown >
+      <script type="text/template">
+        #Qu'est-ce que le programme Teachers Learning Code?
+
+        <ul>
+          <li>Guide pratique </li>
+          <li>Plans de leçons</li>
+          <li>Communauté Slack (forum)</li>
+          <li>Séances de formation en présentiel et à distance</li>
+          <li>Enseignement en collaboration et jumelage avec des mentors en classe</li>
+
+        </ul>
+
+      </script>
+    </section>
+
+<!--Diapositive 12-->
+    <section class="slide" data-markdown >
+      <script type="text/template">
+        #Composantes du plan de leçon
+
+        <ul>
+          <li>Leçon d'introduction en lien avec le programme d'études </li>
+          <li>Informations sur l'activité</li>
+          <li>Objectifs d'apprentissage et lien avec le programme d'études</li>
+          <li>Concepts de programmation clés </li>
+          <li>Préparation </li>
+          <li>Adaptation et prolongement</li>
+          <li>Cadre d'évaluation </li>
+
+        </ul>
+
+      </script>
+    </section>
+
+<!--Diapositive 13-->
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Parlons d'outils d'enseignement!
+
+      </script>
+    </section>
+
+<!--Diapositive 14-->
+    <section class="slide title" data-markdown >
+      <script type="text/template">
+        #Conception de jeux, de sons et d'animations : Scratch
+      </script>
+    </section>
+
+<!--Diapositive 15-->
+    <section class="slide" data-markdown >
+      <script type="text/template">
+        #Tout d'abord, l'essentiel
+        ##Voici quelques questions essentielles que nous abordons dans le cadre de nos programmes :
+
+        <ul>
+          <li>Pépins avec la technologie</li>
+          <li>Résolution de problèmes par les apprenants</li>
+          <li>Apprentissage par le questionnement</li>
+        </ul>
+
+      </script>
+    </section>
+
+<!--Diapositive 16--> <!--need to translate-->
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Teaching Tools: Scratch
+
+        <!-- English slides: Scratch video introduction: <a href="bit.ly/tlcscratchintro"> bit.ly/tlcscratchintro</a>-->
+
+        ##Let’s all go to our <a href="http://scratch.mit.edu/classes/45154/register/35d6f819da45414a898b18c1df030427">Scratch Classroom</a>
+
+        Create a new account to experience Scratch Classes from a student's point of view (follow instructions)
+
+        To change the lanugage to French, click on the globe (top, left corner).
+
+        <img src="framework/img/scratch-interface.jpg" alt="Scratch interface page">
+
+
+          ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="http://news.mit.edu/2013/scratch-two-released-0514"> Screenshot of Scratch interface from MIT News</a>
+          </div>
+
+      </script>
+    </section>
+
+<!--Diapositive 17--> <!--need to translate-->
+    <section class="slide" data-markdown >
+      <script type="text/template">
+        #Let's Explore: Code Along Challenges
+
+        1. Make Scratch the cat move
+        1. Make Scratch spin
+        1. Make Scratch say something when the space key is pressed
+        1. Add a new Sprite and backdrop
+
+        There are many possible solutions. Play around! SHOW AND TELL.
+
+      </script>
+    </section>
+
+<!--Diapositive 18--> <!--need to translate-->
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Exercise: Make interactive artwork in Scratch
+        ##We are going to do PAINT WITH GOBO INTERACTIVE ART!
+
+        Create a new project in Scratch ("Create" top left corner)
+
+        Let's take a look at the final project first <a href="https://scratch.mit.edu/projects/10015857/#player">here.</a>
+
+        <img src="framework/img/gobo-screenshot.png" alt="Gobo image">
+
+        <em>This lesson is found on teacherslearningcode.com <a href="http://teacherslearningcode.com/fr/lessons/pogo">here (video in English)</a></em>
+
+      </script>
+    </section>
+
+<!--Diapositive 19-->
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Présentation et discussion
+        ##Qu'avez-vous appris?
+        ##Comment pourriez-vous faire cette activité avec vos apprenants?
+
+      </script>
+    </section>
+
+<!--Diapositive 20-->
+    <section class="slide " data-markdown data-toc>
+      <script type="text/template">
+        #Exercice : Débogage
+
+        Le débogage est le processus de résolution de problèmes du code. C'est une partie essentielle de la programmation!
+
+        Faites quelques exercices de débogage : http://bit.ly/ScratchDebug
+
+        <img src="framework/img/debugging.png" alt="Debugging Code">
+
+
+          ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://www.embarcadero.com/images/free-tools/REST_Debugger_Logo_256x256px.png"> Debugging logo</a>
+          </div>
+
+      </script>
+    </section>
+
+<!--Diapositive 21-->
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Dîner
+      </script>
+    </section>
+
+<!--Diapositive 22-->
+    <section class="slide title" data-markdown >
+      <script type="text/template">
+        #Créer un site Web : Lunettes à rayons X et Mozilla Thimble
+      </script>
+    </section>
+
+<!--Diapositive 23--> <!--need to translate-->
+    <section class="slide" data-markdown >
+      <script type="text/template">
+        #How do we build the web?
+
+        Browsers don't understand English, but they do understand HTML &amp; CSS!
+
+        We use HTML to tell the browser what our website looks like, and which content to display. We use CSS to style the website (like colours, fonts).
+
+        HTML tags have ```< >``` brackets and will not be seen on the actual website. We'll just see the content in between.
+
+        ```html
+        <p> This is a paragraph. </p>
+        ```
+
+        <p class="note">Looks like:</p>
+
+        <p>This is a paragraph.</p>
+
+
+      </script>
+    </section>
+
+<!--Diapositive 24--> <!--need to translate-->
+    <section class="slide two-col-list" data-markdown data-toc>
+      <script type="text/template">
+        #Mozilla Webmaking Tools
+        * Mozilla X-Ray Goggles
+          <img style="margin-top:20px" src="framework/img/goggles-screenshot.png" alt="X Ray Goggles interface page">
+        * Mozilla Thimble
+          <img style="margin-top:20px" src="framework/img/thimble-screenshot.png" alt="Thimble interface page">
+
+        ##Let’s all go to: <a href="http://thimble.mozilla.org">thimble.mozilla.org</a>
+
+        Select the language dropdown (top, right corner) to change the language to French.
+
+        <p><strong>username:</strong> teacherslearningcode |
+        <strong>password:</strong> helloworld123 </p>
+
+      </script>
+    </section>
+
+<!--Diapositive 25-->
+    <section class="slide" data-markdown >
+      <script type="text/template">
+        #Exercice : Remixez le Web
+        ##Qui est votre idole?
+
+        * Quel est son vrai nom?
+        * Où est-elle née?
+        * Qui est-elle ou que fait-elle?
+        * Nommez 3 détails intéressants à propos de cette personne.
+        * Pourquoi est-elle votre idole?
+        * Trouvez une photo d'elle!
+
+        ```Écrivez vos réponses dans un document Word.```
+
+      </script>
+    </section>
+
+<!--Diapositive 26--> <!--need to translate-->
+    <section class="slide" data-markdown data-toc>
+      <script type="text/template">
+        #Exercice : Remixez le Web
+
+        <a href="http://thimbleprojects.org/HTTP/glccamp/135907/">See the example project (in English)</a>
+
+        Go to <a href="http://www.marvel-world.com">marvel-world.com</a> and choose a superhero page to remix using the content from your Word document.
+
+        <img src="framework/img/marvel.png" alt="Marvel super hero">
+
+
+          ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="http://marvel.com/characters/9/captain_marvel"> Captain Marvel image</a>
+        </div>
+
+      </script>
+    </section>
+
+<!--Diapositive 27-->
+    <section class="slide title" data-markdown >
+      <script type="text/template">
+        #Pause
+      </script>
+    </section>
+
+<!--Diapositive 28-->
+    <section class="slide" data-markdown data-toc >
+      <script type="text/template">
+        #Exercice : Créez votre propre site Web
+        ##Quelle est votre province (ou territoire) préférée?
+
+        * Choisissez une province ou un territoire.
+        * Quel est la chose la plus connue de cette province ou de ce territoire?
+        * Quelles sont les 5 choses les plus amusantes à faire dans cette province ou ce territoire?
+        * Trouvez une photo ou une vidéo en lien avec la province ou le territoire!
+
+        ```Écrivez vos réponses dans un document Word.```
+
+      </script>
+    </section>
+
+<!--Diapositive 29--> <!--need to translate-->
+    <section class="slide" data-markdown >
+      <script type="text/template">
+        #Exercice : Créez votre propre site Web
+
+        <a href="https://thimbleprojects.org/teacherslearningcode/353483/">See the example project (in English)</a>
+
+        Go to <a href="http://bit.ly/tlc-tourism-website">bit.ly/tlc-tourism-website </a>and <strong>remix</strong> using the content from your Word document.
+
+        <img src="framework/img/tourism.png" alt="Tourism">
+
+          ---
+        <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://cdn1.iconfinder.com/data/icons/traveling-2/502/14-256.png"> Tourist icon</a>
+        </div>
+
+      </script>
+    </section>
+
+<!--Diapositive 30-->
+    <section class="slide title" data-markdown data-toc>
+      <script type="text/template">
+        #Présentation et discussion
+        ##Qu'avez-vous appris?
+        ##Comment pourriez-vous faire cette activité avec vos apprenants?
+
+      </script>
+    </section>
+
+<!--Diapositive 32-->
+    <section class="slide two-col-list" data-markdown data-toc >
+      <script type="text/template">
+        #Réflexion et conclusion
+        * Prenez 5 minutes pour discuter de la façon que vous initierez vos apprenants à la programmation en compagnie de votre voisin. Notez votre réflexion sur un papillon adhésif.
+        * <img src="framework/img/postit.jpg" alt="Post it notes">
+
+      </script>
+    </section>
+
+<!--Diapositive 33-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #La suite
+        ##Ensemble, nous changerons le monde, une leçon de programmation à la fois.
+
+        Next Step Ideas:<!--need to translate-->
+
+        * Create a <a href="https://scratch.mit.edu/educators/">Scratch Teacher account</a> <!--need to translate-->
+        * Sélectionnez des activités hors ligne, sans technologie au <a href="http://teacherslearningcode.com/fr">teacherslearningcode.com</a> pour commencer.
+        * Consacrez une journée de la semaine à la programmation, par exemple, faites un « mardi programmation ».
+        * Créez vos propres activités et leçons et partagez-les sur le site <a href="http://teacherslearningcode.com/fr">teacherslearningcode.com</a>
+        * Faites du bénévolat dans un atelier de programmation pour les enfants dans votre région afin de renforcer vos acquis et de voir des apprenants apprendre la programmation en action.</li>
+
+      </script>
+    </section>
+
+
+    <!-- Dernière diapositive -->
+    <section class="slide last">
+      <h1>Merci!</h1>
+      <h2 class="heading-bg"> </h2>
+      <img class="instructor" src="http://cl.ly/image/0r3Q3H110G36/profile-generic.jpg" alt="instructor name">
+      <h2><span class="cursive">avec</span> nom du formateur</h2>
+      <ul>
+        <li><a href="mailto:">allo@courriel.com</a></li>
+        <li><a href="#">monsite.com</a></li>
+        <li><a href="http://twitter.com/">@twitter</a></li>
+      </ul>
+
+      <p class="attribution">Adaptation par <a href="http://natcooper.com">Nat Cooper</a> et création par <a href="http://christinatruong.com">Christina Truong</a> à partir de <a href="https://github.com/LeaVerou/csss">Lea Verou's SlideShow</a> et de <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>. Un merci tout particulier aux contributeurs : <a href="https://github.com/mattb0m)">mattb0m</a>, <a href="https://github.com/zoster">zoster</a>, <a href="https://github.com/hrtovey">hrtovey</a>, <a href="https://github.com/jessynd">jessynd</a>, <a href="https://github.com/melissacrnic">melissacrnic</a> et <a href="http://pixelles.ca/blog/2015/01/workshop-twine">Rebecca Cohen Palacios</a></p>
+    </section>
+
+  </main><!-- Section principale cls -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Enlevez les commentaires des modules dont vous avez besoin -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Regroupe tous les éléments .snippet
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+  </body>
+  </html>
