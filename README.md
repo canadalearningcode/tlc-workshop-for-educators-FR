@@ -1,117 +1,117 @@
-# IN TRANSLATION
+# Teachers Learning Code : Atelier pour les éducateurs
+## Survol du jour | Notes du formateur
 
-# Teachers Learning Code Workshop for Educators
-## Layout of the Day | Instructor Notes
+Aperçu des diapositives : [https://ladieslearningcode.github.io/tlc-workshop-for-educators-FR/slides-fr.html](https://ladieslearningcode.github.io/tlc-workshop-for-educators-FR/slides-fr.html)
 
-Preview Slides: [https://ladieslearningcode.github.io/tlc-workshop-for-educators-FR/slides-fr.html](https://ladieslearningcode.github.io/tlc-workshop-for-educators-FR/slides-fr.html)
-
-Contingency Download Folder: https://drive.google.com/file/d/0B0D0LWVu-xHyNmw5Z3NLamlEd0k/view?usp=sharing
-
-### DO THE ROBOT ICE BREAKER ACTIVITY [12 minutes]
-- Pairs take turns as both Robot and Programmer working through this <a href="https://docs.google.com/document/d/1tUTiHl7scs8RHdLLvdmZTFtD9EuAyZhetTLFgvar5CQ/edit#heading=h.bnz2ltopi57a">unplugged activity</a>
-- Reflection
-	- Which role was more difficult?
-	- Why?
-	- Discuss concepts learned & discuss modification options
-	- Note: this is on teacherslearningcode.com as a lesson and in the how-to-guide [Do the Robot activity](http://teacherslearningcode.com/en/lessons/ruby-robot)
-
-### AGENDA REVIEW [3 minutes]
-
-### INTRODUCTIONS [10 minutes]
-- What brings you here? What are your goals?
-- Lead and mentor introductions
-- What the goals of the workshop are
-
-### WHAT IS TEACHERS LEARNING CODE? [15 minutes]
-- Introduction to the organization
-- Why we started the program
-- Our successful formula for programming
-- Why teach coding
-- Learning objectives
-- Diversity matters
-- What the program includes
-- Who the program is for
-
-### TEACHING TOOL: SCRATCH [60 minutes]
-- Code Along in Scratch
-	- Point out the main elements (sprites, stage, scripts) *OR* watch the intro video with the group
-	- Give teachers 2-3 minutes to try a few challenges
-	- See <a href="https://docs.google.com/document/d/1Mcn7v3z85C0gBtALJvu0glVeJ3KpdEWPZlXeXBsxsz0/edit?usp=sharing">FAQ sheet</a> for more support
-- Exploring Scratch through a Teachers Learning Code Lesson
-	- We recommend *Painting with Gobo* (already in the slides)
-		- See the Painting with Gobo <a href="https://docs.google.com/document/d/1iNRHYAays9qSobQ2kdNm-z1nQx3GV7x1_3masDF7V_o/edit?usp=sharing">solution sheet</a>
-	- You can also replace this activity with another lesson from [teacherslearningcode.com](http://teacherslearningcode.com/en). For example:
-		- Wildlife Soundscapes
-			- Starter Project Here (https://scratch.mit.edu/projects/147165193/)
-			- Video Tutorial Here (https://youtu.be/o_lV16MlcW4)
-				- Follow along the lesson (http://teacherslearningcode.com/en/lessons/wildlife-soundscapes) and have teachers try out extensions and modifications!
-	- Cover concepts like:
-		- Logic and reasoning (like events, loops, conditionals)
-		- Online vs desktop tool (both free!)
- 		- There are no wrong way of doing things; “real” developers will solve the same problem in multiple different ways
-
-### SHOW & TELL + DISCUSSION [45 minutes]
-- ½ walk around; other ½ share what they did with them
-	- Repeat for other half
-- Discuss challenges encountered
-	- What challenges do you think your students may have
-	- Explore vs structure
-	- Encourage individual learning styles
-- Debugging Activity
-	- Give a few minutes for teachers to try and debug 1-2 projects
-
-### LUNCH [60 minutes]
-
-### BUILDING THE WEB WITH MOZILLA WEBMAKING TOOLS [30 minutes]
-- Explain what HTML &amp; CSS are
-- Open X-Ray Goggles and give a quick summary (used for 'hacking' websites)
-- Open Thimble and give a quick summary (used to remix or build websites from scratch)
-- Have everyone log in via http://thimble.mozilla.org
-
-### TEACHING TOOL: MOZILLA X-RAY GOGGLES [30 minutes]
-- Have teachers brainstorm around their role model (information collection)
-- Go through the <a href="https://docs.google.com/document/d/1fCGW6YU_MBvdMwJ-D5WK0otiLT7JTsLvatfHJBnAEN8/edit#heading=h.uj9grc5rx70y">Superhero Profiles activity </a>
-	- Demonstrate how to edit text and replace images from a Google search
-	- Teachers remix their own superhero page, then Publish to the web.
-		- Example: http://thimbleprojects.org/HTTP/glccamp/135907
-
-### BREAK [10 minutes]
-
-### TEACHING TOOL: MOZILLA THIMBLE [30 minutes]
-- Have teachers research their favourite province or territory
-- Go through the <a href="http://teacherslearningcode.com/en/lessons/tourism-insert-your-province-85ed749a-6f39-401b-a03b-8565864016b6">Tourism activity</a>
-	- Remix the starter HTML project in Mozilla Thimble
-	- Demonstrate how to edit text elements
-	- Demonstrate how to embed a video from YouTube (Click "Share" > "Embed" > Copy and paste the iframe code into your HTML file)
-	- Have teachers Remix their own page
-		- Example: https://thimbleprojects.org/teacherslearningcode/353483/
-	- Demonstrate how to edit CSS styles, if time. See http://css.cool for inspiration
-	- Remind everyone to rename their project (top, left) and Publish
+Dossier de téléchargement (anglais) : [https://drive.google.com/file/d/0B0D0LWVu-xHyNmw5Z3NLamlEd0k/view?usp=sharing](https://drive.google.com/file/d/0B0D0LWVu-xHyNmw5Z3NLamlEd0k/view?usp=sharing)
 
 
-### SHOW & TELL + DISCUSSION [45 minutes]
-- Have teachers volunteer to share their Superhero Profile or Tourism Website
-- What challenges do you think your students may have
-- Explore vs structure
-- Encourage individual learning styles
+### ACTIVITÉ BRISE-GLACE : LE ROBOT [12 minutes]
+- Dans le cadre de cette <a href="https://docs.google.com/document/d/19PQ0b9IB8D77CU9LSKUbNaEBvgsTVyytM_LUf0NGjSY/edit#heading=h.gjdgxs">activité hors ligne</a> (version française disponible), les apprenants en groupe de deux jouent le rôle du robot et du programmeur chacun à leur tour.
+- Réflexion :
+	- Quel rôle était le plus difficile?
+	- Pourquoi?
+	- Discutez des concepts appris et des changements à apporter à l'activité.
+	- Remarque : Cette leçon est disponible sur teacherslearningcode.com et dans le guide (aussi en français) : [http://teacherslearningcode.com/assets/tlc-teacherguide-FRE.pdf](http://teacherslearningcode.com/assets/tlc-teacherguide-FRE.pdf)
 
-### NEXT STEPS [10 minutes]
-- Question to group: What’s YOUR next step?
-	- Give a few ideas
-	- Hand out sticky notes (and pens)
-	- Have them write down their next step, then share with the person beside them
-	- After wrapping up have them stick their next step sticky on the wall, so people can see each other’s next steps/get inspired
-- THANK YOU!
-- Feedback Survey
+### ORDRE DU JOUR [3 minutes]
 
-### Other Topics for Discussion/ Work Period Ideas
-- Talk about assessment
-	- How a student could save/share/submit for “marking”
-		- Individual URL’s in Scratch and Mozilla Thimble
-		- Educator accounts for Scratch
-- Encourage everyone to share share something they learned
+### PRÉSENTATION [10 minutes]
+- Pourquoi êtes-vous ici? Quels sont vos objectifs?
+- Présentation des formateurs et des mentors
+- Les objectifs de l'atelier
 
-- Working Period
-	- How will you use this in your class next week
-	- Lesson plan
-	- Talk amongst yourselves, I’m here to support
+### QU'EST-CE QUE TEACHERS LEARNING CODE? [15 minutes]
+- Présentation de l’organisme
+- Pourquoi ce programme a-t-il vu le jour?
+- La clé de notre succès en programmation
+- Pourquoi enseigner la programmation?
+- Objectifs d'apprentissage
+- Question de diversité
+- Que comprend le programme?
+- Pour qui ce programme est-il conçu?
+
+### OUTIL D'ENSEIGNEMENT : SCRATCH [60 minutes]
+- Programmation en groupe avec Scratch
+	- Indiquez les éléments principaux (lutins, scène, scripts) *OU* visionnez la vidéo d’introduction avec le groupe (en anglais)
+	- Accordez 2 ou 3 minutes aux éducateurs afin que ceux-ci puissent relever quelques défis
+	- Voir la <a href="https://docs.google.com/document/d/1it1IadRawE_HuXgnE6WIA9DOSBzorHjS6H3yVdqQMGI/edit?usp=sharing">feuille de défis</a> pour obtenir de l'aide (disponible en français)
+- Découvrir Scratch avec une leçon de Teachers Learning Code
+	- Nous recommandons la leçon *Peindre avec Gobo* (déjà dans les diapositives)
+	- Consultez le <a href="https://docs.google.com/document/d/1CbVCa8rxtUGT_hUaGHfiEI5gRwzqLK0nh_63f6DWPuk/edit?usp=sharing">corrigé</a> de la leçon Peindre avec Gobo
+	- Il est aussi possible de remplacer cette activité par une autre leçon de [http://teacherslearningcode.com/fr](http://teacherslearningcode.com/fr). Par exemple :
+		- Paysages sonores de la faune
+			- Projet initial : [https://scratch.mit.edu/projects/147165193/](https://scratch.mit.edu/projects/147165193/)
+			- Tutoriel vidéo : [https://youtu.be/o_lV16MlcW4](https://youtu.be/o_lV16MlcW4) (en anglais)
+				- Suivez les consignes de la <a href="http://teacherslearningcode.com/fr/lessons/wildlife-soundscapes">leçon</a> (en anglais), essayez des activités de prolongement et faites des variations avec les éducateurs.
+	- Abordez des concepts tels que :
+		- La logique et le raisonnement (les événements, les boucles, les expressions conditionnelles)
+		- Outil en ligne ou hors ligne (les deux sont gratuits)
+		- Toutes les solutions sont bonnes en programmation. Les « vrais » développeurs résolvent un même problème de manières différentes.
+
+### DÉMONSTRATIONS + DISCUSSION [45 minutes]
+- La moitié du groupe se déplace, l'autre moitié présente ce qu'elle a accompli.
+	- Répétez la même activité en inversant les rôles.
+- Discutez des obstacles rencontrés
+	- Quels obstacles les élèves rencontreront-ils?
+	- Apprentissage structuré ou par exploration?
+	- Encouragez la différenciation pédagogique selon les différents styles d'apprentissage.
+- Activité de débogage
+	- Accordez-leur du temps pour déboguer un ou deux projets.
+
+### DÎNER [60 minutes]
+
+### CRÉATION SUR LE WEB AVEC LES OUTILS MOZILLA WEBMAKING [30 minutes]
+- Expliquez en quoi consistent le HTML et le CSS.
+- Montrez-leur l’outil des lunettes à rayons X et faites-en un survol rapide (elles servent à « pirater » des sites Web).
+- Montrez-leur Thimble et faites-en un survol rapide (il sert à remixer ou à créer des sites Web à partir de zéro).
+- Invitez tout le monde à se connecter à cette adresse : [https://thimble.mozilla.org/fr](https://thimble.mozilla.org/fr)
+
+
+### OUTIL D'ENSEIGNEMENT : LUNETTES À RAYONS X MOZILLA [30 minutes]
+- Demandez aux éducateurs de faire un remue-méninge à propos de leur modèle ou idole (afin de collecter des informations).
+- Réalisez l'activité <a href="https://docs.google.com/document/d/1s-PepRetiPchZs0joC1gn5P9SuUSZlvTbkijVi531SE/edit?usp=sharing">Profils de superhéros</a> (disponible en français).
+	- Montrez-leur comment modifier du texte et remplacer une image par une autre trouvée sur Google.
+	- Les éducateurs remixent leur propre profil de superhéros et le publient sur le Web.
+	- Exemple : [http://thimbleprojects.org/HTTP/glccamp/135907](http://thimbleprojects.org/HTTP/glccamp/135907) (en anglais)
+
+
+### PAUSE [10 minutes]
+
+### OUTIL D'ENSEIGNEMENT : MOZILLA THIMBLE [30 minutes]
+- Demandez aux éducateurs de faire une petite recherche sur leur province préférée ou leur territoire préféré du Canada
+- Réalisez l’activité <a href="http://teacherslearningcode.com/fr/lessons/tourisme-nom-de-la-province-ou-du-territoire">Tourisme</a> (disponible en français)
+	- Remixez le projet HTML initial dans Mozilla Thimble.
+	- Montrez-leur comment modifier des éléments de texte.
+	- Montrez-leur comment intégrer une vidéo YouTube (Partager > Intégrer > Copier, copier et coller le code iframe dans le fichier HTML).
+	- Invitez les éducateurs à remixer leur propre page.
+	- Exemple : [https://thimbleprojects.org/teacherslearningcode/353483/](https://thimbleprojects.org/teacherslearningcode/353483/) (en anglais)
+	- Montrez-leur comment modifier des styles CSS, si le temps le permet. Pour plus d’inspiration : [http://css.cool](http://css.cool)
+	- Rappelez à tout le monde de renommer leur projet (en haut, à gauche) et de le publier.
+
+
+### DÉMONSTRATIONS + DISCUSSION [45 minutes]
+- Demandez à des éducateurs de présenter leur profil de superhéros ou leur site Web de tourisme au groupe.
+- Quels obstacles les élèves rencontreront-ils?
+- Apprentissage structuré ou par l'exploration?
+- Encouragez la différenciation pédagogique (le respect des différents styles d'apprentissage).
+
+### LA SUITE [10 minutes]
+- Question au groupe : quelle est la prochaine étape, selon vous?
+- Donnez-leur quelques idées.
+- Distribuez quelques papillons adhésifs et des crayons.
+- Demandez-leur d’écrire leur prochaine étape et de partager celle-ci avec leur voisin ou voisine.
+- En conclusion, demandez-leur de coller leur papillon adhésif sur le mur. Ainsi, ils pourront voir les idées des autres et être inspirés pour la suite des choses.
+- MERCI!
+- Sondage de rétroaction
+
+### Autres sujets de discussion / idées pour la séance de travail
+- Discutez de l’évaluation.
+	- Comment enregistrer, partager et soumettre son projet pour l’évaluation
+	- Adresses URL individuelles dans Scratch et Mozilla Thimble
+	- Compte pour enseignant dans Scratch
+- Encouragez tout le monde à partager une notion qu’ils ont apprise.
+- Séance de travail
+	- Comment utiliser ces informations dans sa propre classe dès la semaine prochaine
+	- Plan de leçon
+	- « Discutez ensemble et je vous apporterai du soutien »
