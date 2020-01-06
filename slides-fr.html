@@ -130,7 +130,7 @@
       <script type="text/template">
         #Qu'est-ce que Teachers Learning Code?
 
-        <img src="framework/img/teachers-landing-page_fr.png" alt="Page de renvoi Teachers Learning Code">
+        <img src="framework/img/tlcwebsite_fr.png" alt="Page de renvoi Teachers Learning Code">
 
       </script>
     </section>
@@ -277,7 +277,7 @@
 
         Si vous souhaitez procéder en français, il est possible de changer la langue en cliquant sur le globe en haut à gauche et de descendre en gardant son pointeur sur la flèche. Sur la page d'accueil de Scratch, les paramètres de langue peuvent aussi être changés dans le menu déroulant en bas de la page.
 
-        <img src="framework/img/scratch-interface.jpg" alt="Interface de la page Scratch">
+        <img src="framework/img/scratch-editor_fr.png" style="width:70%;" alt="Interface de la page Scratch">
 
 
           ---
@@ -318,6 +318,8 @@
         <img src="framework/img/gobo-screenshot.png" alt="Image Gobo">
 
         <em>La page de cette leçon est <a href="http://teacherslearningcode.com/fr/lessons/pogo">disponible</a> sur teacherslearningcode.com (vidéo en anglais).</em>
+
+        <!--update link-->
 
       </script>
     </section>
@@ -366,7 +368,7 @@
 <!--Diapositive 22-->
     <section class="slide title" data-markdown >
       <script type="text/template">
-        #Créer un site Web : Lunettes à rayons X et Mozilla Thimble
+        #Créer un site Web : Glitch
       </script>
     </section>
 
@@ -394,72 +396,170 @@
     </section>
 
 <!--Diapositive 24-->
-    <section class="slide two-col-list" data-markdown data-toc>
+    <section class="slide centered" data-markdown>
       <script type="text/template">
-        #Outils Mozilla pour créer des sites Web
-        * Lunettes à rayons X Mozilla (en anglais)
-          <img style="margin-top:20px" src="framework/img/goggles-screenshot.png" alt="interface de la page X-Ray Goggles">
-        * Mozilla Thimble (en français)
-          <img style="margin-top:20px" src="framework/img/thimble_fr.png" height="300" width="1152" alt="interface de la page Thimble">
+        #Les balises utilisent les caractères **<**, **>** et **/**
 
-        ##Allons à l'adresse <a href="http://thimble.mozilla.org">thimble.mozilla.org</a>
-
-        Dans le menu déroulant en haut à droite, sélectionnez « Français ».
-
-        <p><strong>Nom d'utilisateur :</strong> teacherslearningcode |
-        <strong>Mot de passe :</strong> helloworld123 </p>
-
+        ![touches du HTML](framework/img/keyboard-html_fr.jpg)
       </script>
     </section>
 
 <!--Diapositive 25-->
-    <section class="slide" data-markdown >
+    <section class="slide two-col-list" data-markdown>
       <script type="text/template">
-        #Exercice : Remixez le Web
-        ##Qui est votre idole?
+        #Les balises viennent toujours en paire
+        * Paire parfaite
+          ```html
+          <p>Ceci est un paragraphe.</p>
+          ```
+          ![Chat content](framework/img/cathappy.png)
+        * Paire incomplète
+          ```html
+          <p>Ceci est un paragraphe.
+          ```
+          ![Chat triste](framework/img/catsad.png)
 
-        * Quel est son vrai nom?
-        * Où est-elle née?
-        * Qui est-elle ou que fait-elle?
-        * Nommez 3 détails intéressants à propos de cette personne.
-        * Pourquoi est-elle votre idole?
-        * Trouvez une photo d'elle!
 
-        ```Écrivez vos réponses dans un document Word.```
-
+          <div class="dropdown">
+                    <button class="dropbtn">Sources</button>
+                    <div class="dropdown-content">
+                      <a href="https://commons.wikimedia.org/wiki/File:PEO-smiling_cat_face_with_open_mouth.svg">Emoji de chat content</a>
+                      <a href="https://commons.wikimedia.org/wiki/File:PEO-crying_cat_face.svg">Emoji de chat triste</a>
+                    </div>
       </script>
     </section>
 
 <!--Diapositive 26-->
-    <section class="slide" data-markdown data-toc>
+    <section class="slide" data-markdown>
       <script type="text/template">
-        #Exercice : Remixez le Web
+        #Paires parfaites
+        Quelle balise forme une paire parfaite avec ```<p>```?
 
-        <a href="http://thimbleprojects.org/HTTP/glccamp/135907/">Regardez l'exemple de projet (en anglais)</a>
+        1. ```<p>``` <!-- .element: class="delayed" -->
+        1. ```</b>``` <!-- .element: class="delayed" -->
+        1. ```</p>``` <!-- .element: class="delayed" -->
+        1. ```</>``` <!-- .element: class="delayed" -->
 
-        Allez à l'adresse <a href="https://www.marveluniverselive.com/fr/">marveluniverselive.com/fr</a> et choisissez une page de superhéros à remixer à l'aide du contenu de votre document Word. (DÉCOUVREZ LES PERSONNAGES)
+        ```<p> forme une paire parfaite avec </p>!``` <!-- .element: class="delayed" -->
+      </script>
+    </section>
 
-        <img src="framework/img/marvel.png" alt="Marvel superhéros">
+<!--Diapositive 27-->
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Le projet du jour
 
+        **Nous créerons un site Web de profil de superhéros par celui d’une de nos idoles**
+
+        Consultez l'exemple de projet disponible ici : [shaq-profile.glitch.me/](https://shaq-profile.glitch.me/)
+
+        Le code source HTML de la page : [glitch.com/~shaq-profile](https://glitch.com/~shaq-profile) (Sélectionnez *View Source* et *index.html*)
+
+        <img src="framework/img/marvel.png" alt="superhéros Marvel">
 
           ---
         <div class="dropdown">
           <button class="dropbtn">Sources</button>
           <div class="dropdown-content">
-            <a href="http://marvel.com/characters/9/captain_marvel">image Captain Marvel</a>
+            <a href="http://marvel.com/characters/9/captain_marvel"> image de Captain Marvel</a>
         </div>
 
       </script>
     </section>
 
-<!--Diapositive 27-->
+<!--Diapositive 28-->
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # D'abord, nous devons faire une recherche
+
+        **Qui est votre idole?**
+
+        * Pourquoi cette personne est-elle connue?
+        * D'où vient-elle?
+        * Que faisait-elle pendant son enfance?
+        * Quels sont les obstacles qu'elle a surmontés?
+        * Comment a-t-elle surmonté ces obstacles?
+        * Y a-t-il une citation mémorable de cette personne?
+
+        `Notez vos réponses dans un document Word.`
+      </script>
+    </section>
+
+<!--Diapositive 29-->
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        #Remixer le Web
+
+        Allez à l'adresse [profil-de-superheros.glitch.me/](https://profil-de-superheros.glitch.me/) et remixez le projet avec le contenu de votre document Word.
+
+        ![Remixez avec Glitch](framework/img/sp1.png)
+
+      </script>
+    </section>
+
+<!--Diapositive 30-->
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Facultatif : Créer un compte
+
+        Allez à l'adresse https://glitch.com et Sélectionnez **Email Magic Link**. Vous devrez consulter votre boîte de réception pour commencer.
+
+        ![Connectez-vous avec votre adresse courriel](framework/img/2-sign-in.png)
+        ![Courriel de vérification](framework/img/3-email-confirm.png)
+
+      </script>
+    </section>
+
+<!--Diapositive 31-->
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Configurer Glitch
+
+        1. Pour afficher les changements en temps réel, sélectionnez **Show** et **Next To The Code**.
+          ![Configurer Glitch](framework/img/4-view-next-to-code.png)
+        1. Sélectionnez **Format This File** pour faciliter la lecture du code.
+          ![Configurer Glitch](framework/img/5-format-this-file.png)
+
+      </script>
+    </section>
+
+<!--Diapositive 32-->
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Remixer le Web
+
+        1. Changer l’en-tête
+        1. Changer le texte du paragraphe
+        1. Remplacer les images
+
+        ![Remixez avec Glitch](framework/img/sp3.png)
+
+        *Consultez le [corrigé](http://bit.ly/profil-de-superhéros-corrigé) au besoin.*
+
+      </script>
+    </section>
+
+<!--Diapositive 33-->
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Objectifs d'apprentissage (acquis)
+
+        * Nous avons remixé des sites Web en modifiant des balises HTML.<!-- .element: class="delayed" -->
+        * Nous avons changé le texte sur des sites Web modifiant des en-têtes et des paragraphes.<!-- .element: class="delayed" -->
+        * Nous avons remplacé des images avec des balises d'image.<!-- .element: class="delayed" -->
+        * Nous avons appris qu'il est possible de modifier notre expérience sur le Web!<!-- .element: class="delayed" -->
+
+      </script>
+    </section>
+
+<!--Diapositive 34-->
     <section class="slide title" data-markdown >
       <script type="text/template">
         #Pause
       </script>
     </section>
 
-<!--Diapositive 28-->
+<!--Diapositive 35-->
     <section class="slide" data-markdown data-toc >
       <script type="text/template">
         #Exercice : Créez votre propre site Web
@@ -475,16 +575,18 @@
       </script>
     </section>
 
-<!--Diapositive 29-->
+<!--Diapositive 36-->
     <section class="slide" data-markdown >
       <script type="text/template">
         #Exercice : Créez votre propre site Web
 
-        <a href="https://thimbleprojects.org/teacherslearningcode/353483/">Consultez l'exemple de projet (en anglais)</a>
+        Consultez l'exemple de projet « Tourisme Yukon » disponible ici : [tourism-yukon.glitch.me](https://tourism-yukon.glitch.me/) (en anglais)
 
-        Allez à l'adresse du projet <a href="http://bit.ly/tlc-tourism-website">bit.ly/tlc-tourism-website </a>et <strong>modifiez-le</strong> à l'aide du contenu de votre document Word.
+        Allez à l'adresse [tourism-website-starter.glitch.me](https://tourism-website-starter.glitch.me/) et <strong>modifiez-le</strong> à l'aide du contenu de votre document Word.
 
         <img src="framework/img/tourism.png" alt="Tourisme">
+
+        *Consultez le [corrigé](http://bit.ly/glitch-site-web-de-tourisme) au besoin.*
 
           ---
         <div class="dropdown">
@@ -496,7 +598,20 @@
       </script>
     </section>
 
-<!--Diapositive 30-->
+<!--Diapositive 37-->
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Objectifs d'apprentissage (acquis)
+
+        * Nous avons remixé des sites Web en modifiant des balises HTML.<!-- .element: class="delayed" -->
+        * Nous avons ajouté du texte à nos sites Web à l'aide de balises de paragraphe et d'en-tête.<!-- .element: class="delayed" -->
+        * Nous avons ajouté des images à nos sites Web à l'aide de balises d'image.<!-- .element: class="delayed" -->
+        * Nous avons modifié l'apparence de nos sites Web avec du CSS.<!-- .element: class="delayed" -->
+
+      </script>
+    </section>
+
+<!--Diapositive 38-->
     <section class="slide title" data-markdown data-toc>
       <script type="text/template">
         #Présentation et discussion
@@ -506,7 +621,7 @@
       </script>
     </section>
 
-<!--Diapositive 32-->
+<!--Diapositive 39-->
     <section class="slide two-col-list" data-markdown data-toc >
       <script type="text/template">
         #Réflexion et conclusion
@@ -516,7 +631,7 @@
       </script>
     </section>
 
-<!--Diapositive 33-->
+<!--Diapositive 40-->
     <section class="slide" data-markdown>
       <script type="text/template">
         #La suite
